@@ -1,0 +1,606 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="wttzone - 个人作品�?>
+
+<!-- ====== HERO ====== -->
+<section class="hero">
+	<div class="hero-bg">
+		<div class="orb orb1"></div>
+		<div class="orb orb2"></div>
+		<div class="grid-bg"></div>
+	</div>
+	<div class="container hero-content">
+		<div class="badge">
+			<span class="badge-dot"></span>
+			欢迎来到我的世界
+		</div>
+		<h1 class="hero-title">
+			你好，我�?br/>
+			<span class="gradient-text">你的名字</span>
+		</h1>
+		<p class="hero-sub">
+			我是<span class="typing-text" id="typing"></span>
+		</p>
+		<p class="hero-desc">
+			热爱创造，痴迷于把想法变成现实�?br/>
+			在这里，你可以看到我做过的一些有意思的项目�?		</p>
+		<div class="hero-links">
+			<a href="#projects" class="btn btn-primary">
+				<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3h7v7H3zM14 3h7v7h-7zM14 14h7v7h-7zM3 14h7v7H3z"/></svg>
+				看看作品
+			</a>
+			<a href="#contact" class="btn btn-ghost">联系�?/a>
+		</div>
+		<div class="hero-stats">
+			<div class="stat">
+				<strong>3+</strong>
+				<span>年折腾经�?/span>
+			</div>
+			<div class="stat-div"></div>
+			<div class="stat">
+				<strong>10+</strong>
+				<span>完成项目</span>
+			</div>
+			<div class="stat-div"></div>
+			<div class="stat">
+				<strong>5+</strong>
+				<span>技术栈</span>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- ====== ABOUT ====== -->
+<section id="about" class="about">
+	<div class="container">
+		<div class="section-label">关于�?/div>
+		<h2 class="section-title">我是谁？</h2>
+		<div class="about-grid">
+			<div class="about-card">
+				<div class="about-icon">🎯</div>
+				<h3>目标驱动</h3>
+				<p>做每一件事都带着明确的目标，追求把东西做到自己能力范围内的最好�?/p>
+			</div>
+			<div class="about-card">
+				<div class="about-icon">🛠�?/div>
+				<h3>技术栈</h3>
+				<p>Node.js · Python · Vue · React · Linux · Docker</p>
+			</div>
+			<div class="about-card">
+				<div class="about-icon">🚀</div>
+				<h3>持续学习</h3>
+				<p>技术更新很快，我始终保持学习状态，关注 AI、Web3.0 等前沿领域�?/p>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- ====== PROJECTS ====== -->
+<section id="projects" class="projects">
+	<div class="container">
+		<div class="section-label">作品�?/div>
+		<h2 class="section-title">最近项�?/h2>
+		<div class="projects-grid">
+
+			<!-- 项目1 -->
+			<div class="project-card">
+				<div class="project-img p1">
+					<div class="project-tag">AI</div>
+				</div>
+				<div class="project-body">
+					<h3>AI 助手平台</h3>
+					<p>基于大语言模型的智能助手，支持多轮对话、知识库问答、自动生成内容。集�?RAG 技术，答案更精准�?/p>
+					<div class="project-tags">
+						<span>Vue3</span><span>Python</span><span>LLM</span><span>RAG</span>
+					</div>
+					<div class="project-links">
+						<a href="#" class="proj-link">
+							<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+							线上预览
+						</a>
+						<a href="#" class="proj-link">
+							<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/></svg>
+							源代�?						</a>
+					</div>
+				</div>
+			</div>
+
+			<!-- 项目2 -->
+			<div class="project-card">
+				<div class="project-img p2">
+					<div class="project-tag">效率工具</div>
+				</div>
+				<div class="project-body">
+					<h3>自动化工作流平台</h3>
+					<p>可视化拖拽搭建自动化流程，打通多�?SaaS 系统，自动完成数据同步、消息推送等重复任务�?/p>
+					<div class="project-tags">
+						<span>Node.js</span><span>Vue3</span><span>Redis</span><span>Docker</span>
+					</div>
+					<div class="project-links">
+						<a href="#" class="proj-link">
+							<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+							线上预览
+						</a>
+						<a href="#" class="proj-link">
+							<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/></svg>
+							源代�?						</a>
+					</div>
+				</div>
+			</div>
+
+			<!-- 项目3 -->
+			<div class="project-card">
+				<div class="project-img p3">
+					<div class="project-tag">数据可视�?/div>
+				</div>
+				<div class="project-body">
+					<h3>数据大屏系统</h3>
+					<p>实时数据可视化大屏，支持多数据源接入，自动刷新图表，拖拽式配置，适用于公司经营数据展示�?/p>
+					<div class="project-tags">
+						<span>React</span><span>ECharts</span><span>Python</span><span>Kafka</span>
+					</div>
+					<div class="project-links">
+						<a href="#" class="proj-link">
+							<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+							线上预览
+						</a>
+						<a href="#" class="proj-link">
+							<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/></svg>
+							源代�?						</a>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</section>
+
+<!-- ====== CONTACT ====== -->
+<section id="contact" class="contact">
+	<div class="container">
+		<div class="contact-box">
+			<div class="orb orb3"></div>
+			<div class="section-label">联系方式</div>
+			<h2 class="section-title">想聊聊？</h2>
+			<p class="contact-desc">无论是有合作想法，还是单纯想打个招呼，我都很乐意收到你的消息�?/p>
+			<div class="contact-links">
+				<a href="mailto:your@email.com" class="contact-item">
+					<span class="contact-icon">✉️</span>
+					<div>
+						<strong>邮箱</strong>
+						<span>your@email.com</span>
+					</div>
+				</a>
+				<a href="#" class="contact-item">
+					<span class="contact-icon">💬</span>
+					<div>
+						<strong>微信</strong>
+						<span>@yourname</span>
+					</div>
+				</a>
+				<a href="#" class="contact-item">
+					<span class="contact-icon">🐙</span>
+					<div>
+						<strong>GitHub</strong>
+						<span>github.com/yourname</span>
+					</div>
+				</a>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- ====== FOOTER ====== -->
+<footer>
+	<div class="container footer-inner">
+		<span>© 2026 wttzone.top · �?❤️ �?�?建�?/span>
+		<span>Powered by <a href="https://astro.build">Astro</a></span>
+	</div>
+</footer>
+
+</Layout>
+
+<!-- ====== STYLES ====== -->
+<style>
+
+/* ---- HERO ---- */
+.hero {
+	position: relative;
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	overflow: hidden;
+}
+.hero-bg {
+	position: absolute;
+	inset: 0;
+	pointer-events: none;
+}
+.grid-bg {
+	position: absolute;
+	inset: 0;
+	background-image:
+		linear-gradient(rgba(99,102,241,0.06) 1px, transparent 1px),
+		linear-gradient(90deg, rgba(99,102,241,0.06) 1px, transparent 1px);
+	background-size: 60px 60px;
+	mask-image: radial-gradient(ellipse at center, black 30%, transparent 80%);
+}
+.orb {
+	position: absolute;
+	border-radius: 50%;
+	filter: blur(100px);
+	opacity: 0.5;
+}
+.orb1 {
+	width: 500px; height: 500px;
+	background: radial-gradient(circle, rgba(99,102,241,0.4), transparent 70%);
+	top: -100px; right: -100px;
+	animation: float 8s ease-in-out infinite;
+}
+.orb2 {
+	width: 400px; height: 400px;
+	background: radial-gradient(circle, rgba(139,92,246,0.3), transparent 70%);
+	bottom: -50px; left: -50px;
+	animation: float 10s ease-in-out infinite reverse;
+}
+.orb3 {
+	width: 300px; height: 300px;
+	background: radial-gradient(circle, rgba(99,102,241,0.2), transparent 70%);
+	top: 50%; left: 50%;
+	transform: translate(-50%,-50%);
+}
+@keyframes float {
+	0%, 100% { transform: translateY(0px); }
+	50% { transform: translateY(-30px); }
+}
+
+.hero-content {
+	position: relative;
+	z-index: 1;
+	padding-top: 6rem;
+	padding-bottom: 4rem;
+}
+
+.badge {
+	display: inline-flex;
+	align-items: center;
+	gap: 8px;
+	background: rgba(99,102,241,0.12);
+	border: 1px solid rgba(99,102,241,0.25);
+	color: #818cf8;
+	padding: 6px 16px;
+	border-radius: 100px;
+	font-size: 0.85rem;
+	font-weight: 500;
+	margin-bottom: 2rem;
+}
+.badge-dot {
+	width: 8px; height: 8px;
+	background: #6366f1;
+	border-radius: 50%;
+	animation: pulse 2s ease-in-out infinite;
+}
+@keyframes pulse {
+	0%, 100% { opacity: 1; transform: scale(1); }
+	50% { opacity: 0.5; transform: scale(1.5); }
+}
+
+.hero-title {
+	font-size: clamp(3rem, 8vw, 6rem);
+	font-weight: 900;
+	line-height: 1.1;
+	letter-spacing: -0.03em;
+	margin-bottom: 1.5rem;
+}
+.gradient-text {
+	background: linear-gradient(135deg, #6366f1, #8b5cf6, #ec4899);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+}
+
+.hero-sub {
+	font-size: 1.3rem;
+	color: var(--text-muted);
+	margin-bottom: 1.5rem;
+	min-height: 2rem;
+}
+.typing-cursor {
+	display: inline-block;
+	width: 2px;
+	height: 1.3rem;
+	background: var(--accent);
+	margin-left: 2px;
+	animation: blink 1s step-end infinite;
+	vertical-align: middle;
+}
+@keyframes blink { 50% { opacity: 0; } }
+
+.hero-desc {
+	font-size: 1.1rem;
+	color: var(--text-muted);
+	line-height: 1.8;
+	margin-bottom: 2.5rem;
+	max-width: 520px;
+}
+
+.hero-links {
+	display: flex;
+	gap: 1rem;
+	flex-wrap: wrap;
+	margin-bottom: 3rem;
+}
+.btn {
+	display: inline-flex;
+	align-items: center;
+	gap: 8px;
+	padding: 12px 28px;
+	border-radius: 12px;
+	font-weight: 600;
+	font-size: 0.95rem;
+	transition: all 0.3s;
+	cursor: pointer;
+}
+.btn-primary {
+	background: linear-gradient(135deg, #6366f1, #8b5cf6);
+	color: white;
+	box-shadow: 0 4px 20px var(--accent-glow);
+}
+.btn-primary:hover {
+	transform: translateY(-2px);
+	box-shadow: 0 8px 30px rgba(99,102,241,0.4);
+}
+.btn-ghost {
+	background: rgba(255,255,255,0.06);
+	border: 1px solid var(--border);
+	color: var(--text);
+}
+.btn-ghost:hover {
+	background: rgba(255,255,255,0.1);
+	border-color: rgba(255,255,255,0.2);
+}
+
+.hero-stats {
+	display: flex;
+	align-items: center;
+	gap: 2rem;
+}
+.stat { text-align: center; }
+.stat strong {
+	display: block;
+	font-size: 1.8rem;
+	font-weight: 800;
+	background: linear-gradient(135deg, #6366f1, #8b5cf6);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.stat span {
+	font-size: 0.8rem;
+	color: var(--text-muted);
+}
+.stat-div {
+	width: 1px;
+	height: 40px;
+	background: var(--border);
+}
+
+/* ---- ABOUT ---- */
+.about { background: rgba(255,255,255,0.01); }
+.section-label {
+	font-size: 0.8rem;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 0.15em;
+	color: var(--accent);
+	margin-bottom: 0.5rem;
+}
+.section-title {
+	font-size: clamp(1.8rem, 4vw, 2.5rem);
+	font-weight: 800;
+	margin-bottom: 3rem;
+}
+.about-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+	gap: 1.5rem;
+}
+.about-card {
+	background: var(--surface);
+	border: 1px solid var(--border);
+	border-radius: 20px;
+	padding: 2rem;
+	transition: all 0.3s;
+}
+.about-card:hover {
+	border-color: rgba(99,102,241,0.3);
+	transform: translateY(-4px);
+	box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+}
+.about-icon { font-size: 2rem; margin-bottom: 1rem; }
+.about-card h3 { font-size: 1.1rem; font-weight: 700; margin-bottom: 0.5rem; }
+.about-card p { color: var(--text-muted); font-size: 0.9rem; line-height: 1.6; }
+
+/* ---- PROJECTS ---- */
+.projects-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+	gap: 2rem;
+}
+.project-card {
+	background: var(--surface);
+	border: 1px solid var(--border);
+	border-radius: 20px;
+	overflow: hidden;
+	transition: all 0.4s;
+}
+.project-card:hover {
+	transform: translateY(-8px);
+	border-color: rgba(99,102,241,0.3);
+	box-shadow: 0 30px 60px rgba(0,0,0,0.4);
+}
+.project-img {
+	height: 200px;
+	position: relative;
+	overflow: hidden;
+}
+.p1 { background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460); }
+.p2 { background: linear-gradient(135deg, #1a1a1a, #2d1b69, #11998e); }
+.p3 { background: linear-gradient(135deg, #0f0c29, #302b63, #24243e); }
+.project-tag {
+	position: absolute;
+	top: 16px;
+	left: 16px;
+	background: rgba(99,102,241,0.8);
+	backdrop-filter: blur(8px);
+	color: white;
+	font-size: 0.75rem;
+	font-weight: 600;
+	padding: 4px 12px;
+	border-radius: 100px;
+}
+.project-body { padding: 1.8rem; }
+.project-body h3 { font-size: 1.2rem; font-weight: 700; margin-bottom: 0.7rem; }
+.project-body p { color: var(--text-muted); font-size: 0.88rem; line-height: 1.7; margin-bottom: 1rem; }
+.project-tags {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 6px;
+	margin-bottom: 1.2rem;
+}
+.project-tags span {
+	background: rgba(99,102,241,0.1);
+	border: 1px solid rgba(99,102,241,0.2);
+	color: #818cf8;
+	font-size: 0.75rem;
+	padding: 3px 10px;
+	border-radius: 100px;
+}
+.project-links { display: flex; gap: 1rem; }
+.proj-link {
+	display: inline-flex;
+	align-items: center;
+	gap: 5px;
+	color: var(--text-muted);
+	font-size: 0.85rem;
+	font-weight: 500;
+	transition: color 0.2s;
+}
+.proj-link:hover { color: #818cf8; }
+
+/* ---- CONTACT ---- */
+.contact-box {
+	position: relative;
+	background: var(--surface);
+	border: 1px solid var(--border);
+	border-radius: 28px;
+	padding: 4rem;
+	text-align: center;
+	overflow: hidden;
+}
+.contact-desc {
+	color: var(--text-muted);
+	font-size: 1.05rem;
+	margin-bottom: 2.5rem;
+	max-width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.contact-links {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 1.5rem;
+}
+.contact-item {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	background: var(--surface2);
+	border: 1px solid var(--border);
+	padding: 16px 24px;
+	border-radius: 16px;
+	transition: all 0.3s;
+	min-width: 200px;
+}
+.contact-item:hover {
+	border-color: rgba(99,102,241,0.3);
+	transform: translateY(-2px);
+}
+.contact-icon { font-size: 1.5rem; }
+.contact-item div { text-align: left; }
+.contact-item strong { display: block; font-size: 0.85rem; font-weight: 600; }
+.contact-item span { font-size: 0.8rem; color: var(--text-muted); }
+
+/* ---- FOOTER ---- */
+footer {
+	border-top: 1px solid var(--border);
+	padding: 2rem 0;
+}
+.footer-inner {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 0.85rem;
+	color: var(--text-muted);
+	flex-wrap: wrap;
+	gap: 0.5rem;
+}
+.footer-inner a { color: var(--accent); }
+.footer-inner a:hover { text-decoration: underline; }
+
+/* ---- ANIMATIONS ---- */
+@media (prefers-reduced-motion: no-preference) {
+	.hero-content > * { opacity: 0; transform: translateY(20px); animation: fadeUp 0.6s ease forwards; }
+	.hero-content .badge { animation-delay: 0.1s; }
+	.hero-content .hero-title { animation-delay: 0.2s; }
+	.hero-content .hero-sub { animation-delay: 0.35s; }
+	.hero-content .hero-desc { animation-delay: 0.45s; }
+	.hero-content .hero-links { animation-delay: 0.55s; }
+	.hero-content .hero-stats { animation-delay: 0.65s; }
+	@keyframes fadeUp {
+		to { opacity: 1; transform: translateY(0); }
+	}
+}
+</style>
+
+<script>
+// Typing effect
+const phrases = ['全栈开发�?🚀', '独立创作�?🎨', '技术爱好�?💡', '解决问题的人 🔧'];
+let phraseIndex = 0;
+let charIndex = 0;
+let isDeleting = false;
+const el = document.getElementById('typing');
+
+function type() {
+	const current = phrases[phraseIndex];
+	if (isDeleting) {
+		el.textContent = current.substring(0, charIndex--);
+		if (charIndex < 0) { isDeleting = false; phraseIndex = (phraseIndex + 1) % phrases.length; setTimeout(type, 400); return; }
+	} else {
+		el.textContent = current.substring(0, charIndex++);
+		if (charIndex > current.length) { isDeleting = true; setTimeout(type, 1800); return; }
+	}
+	setTimeout(type, isDeleting ? 60 : 120);
+}
+setTimeout(type, 800);
+
+// Scroll animations
+const observer = new IntersectionObserver((entries) => {
+	entries.forEach(entry => {
+		if (entry.isIntersecting) {
+			entry.target.style.opacity = '1';
+			entry.target.style.transform = 'translateY(0)';
+		}
+	});
+}, { threshold: 0.1 });
+
+document.querySelectorAll('.about-card, .project-card, .contact-box').forEach(el => {
+	el.style.opacity = '0';
+	el.style.transform = 'translateY(30px)';
+	el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+	observer.observe(el);
+});
+</script>
+
